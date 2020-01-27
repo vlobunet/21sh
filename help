@@ -1,0 +1,45 @@
+╔══════════════════╦═════════════════════════════════════════════════════╗
+║        KEY       ║                  ACT/FUNC                           ║
+╠══════════════════╩═════════════════════════════════════════════════════╣
+║                             MANAGEMENT OF THE COURSE                   ║
+╠══════════════════╦═════════════════════════════════════════════════════╣
+║ up.............. ║ Up one line/story up.                               ║
+║ down............ ║ Down one line / story down.                         ║
+║ right........... ║ Right to one character.                             ║
+║ left............ ║ Left to one character.                              ║
+║ alt+right....... ║ Right to one word.                                  ║
+║ alt+left........ ║ Left to one word.                                   ║
+║ home............ ║ at the beginning of the line.                       ║
+║ end............. ║ at the end of the line.                             ║
+║ tab............. ║ autocomplate.                                       ║
+║ backspace....... ║ removes a character or selected part of a string    ║
+╠══════════════════╩═════════════════════════════════════════════════════╣
+║                              SELECTION MANAGEMENT                      ║
+╠══════════════════╦═════════════════════════════════════════════════════╣
+║ alt+shift+right. ║ select / deselect the left word.                    ║
+║ alt+shift+left.. ║ select / deselect the right word.                   ║
+║ shift+right..... ║ select / deselect left symbol.                      ║
+║ shift+left...... ║ select / deselect right symbol.                     ║
+║ shift+home...... ║ select / deselect before the beginning of the line. ║
+║ shift+end....... ║ select / deselect to the end of the line.           ║
+║ alt+a........... ║ select an entire row.                               ║
+╠══════════════════╩═════════════════════════════════════════════════════╣
+║                                  COPY / INSERT                         ║
+╠══════════════════╦═════════════════════════════════════════════════════╣
+║ alt+x........... ║ cut the selection.                                  ║
+║ alt+c........... ║ copy the selection.                                 ║
+║ alt+v........... ║ paste copied text.                                  ║
+╚══════════════════╩═════════════════════════════════════════════════════╝
+
+╔══════════════════╦═════════════════════════════════════════════════════╗
+║      COMMAND     ║                  ACT/FUNC                           ║
+╠══════════════════╬═════════════════════════════════════════════════════╣
+║ env............. ║ print environment                                   ║
+║ setenv.......... ║ set environment.                                    ║
+║ unsetenv........ ║ delete environment.                                 ║
+║ clear........... ║ clear the terminal screen.                          ║
+║ cd.............. ║ switch between directories.                         ║
+║ echo............ ║ write arguments to the standard output.             ║
+║ exit............ ║ exit 21sh.                                          ║
+║ help............ ║ display help file.                                  ║
+╚══════════════════╩═════════════════════════════════════════════════════╝

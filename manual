@@ -1,0 +1,91 @@
+NAME
+     man -- format and display the on-line manual pages
+
+SYNOPSIS
+     man
+ name_command
+
+==========================================================================
+What?e1r12p4 ~/Desktop/sh $> myman echo
+NAME:
+     echo -- write arguments to the standard output
+
+SYNOPSIS
+     echo [-n] [string ...]
+
+DESCRIPTION
+     The echo utility writes any specified operands, separated by single
+     blank (` ') characters and followed by a newline (`\n') character,
+     to the standard output.
+
+     The following option is available:
+
+     -n    Do not print the trailing newline character
+
+===========================================================================
+NAME
+     cd -- change working directory
+
+SYNOPSIS
+     cd [directory]
+
+DESCRIPTION
+     Directory is an absolute or relative pathname which becomes the new work-
+     ing directory.  The interpretation of a relative pathname by cd depends
+     on the CDPATH environment variable.
+
+============================================================================
+NAME
+     env -- display environment
+
+SYNOPSIS
+     env [directory]
+
+e1r12p4 ~/Desktop/sh $> myman setenv
+NAME
+     setenv -- set environment
+
+SYNOPSIS
+     setenv [name value]
+
+DESCRIPTION
+     Modifies the environment variable. If the variable does not exist then the
+     command will add a variable to the end of the list.
+
+=============================================================================
+NAME
+     unsetenv -- Removes the environment variable
+
+SYNOPSIS
+     unsetenv [name..name..]
+
+DESCRIPTION
+     Removes the environment variable. If the variable does not exist then the
+     command will issue a warning.
+IMPORTANT:
+     You can not delete the HOME variable
+     To maintain the terminal's operability, it is not recommended to delete
+     the PATH variable.
+===============================================================================
+NAME
+     clear -- clear the terminal screen
+
+SYNOPSIS
+     clear
+
+DESCRIPTION
+     clear  clears your screen if this is possible.  It looks in the
+     environment for the terminal type and then in the terminfo
+     database to figure out how to clear the screen
+================================================================================
+NAME
+     help -- format and display the on-line manual pages
+
+SYNOPSIS
+     help
+================================================================================
+NAME
+     exit -- format and display the on-line manual pages
+
+SYNOPSIS
+     exit
